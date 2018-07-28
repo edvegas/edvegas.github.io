@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Porsche";
+  src: url("../fonts/porsche.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Sunflower-Medium";
+  src: url("../fonts/Sunflower-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+body {
+  font-family: "Sunflower-Medium"; }
+
+.navbar {
+  border-bottom: 0.2rem solid rgba(0, 0, 0, 0.7);
+  background: -webkit-linear-gradient(to right, #180D01, #333333);
+  background: linear-gradient(to right, #180D01, #333333);
+  opacity: 0.9; }
+
+footer {
+  background: -webkit-linear-gradient(to right, #180D01, #333333);
+  background: linear-gradient(to right, #180D01, #333333);
+  opacity: 0.9; }
+
+#navbarCollapse {
+  font-family: "Porsche"; }
+  #navbarCollapse a:hover {
+    color: #fff; }
+
+.carousel-item {
+  font-family: "Porsche";
+  height: 800px; }
+
+.carousel-image-1 {
+  background: url("../images/bigporsche1.jpg");
+  background-size: cover;
+  background-position: 50% 50%; }
+
+.carousel-image-2 {
+  background: url("../images/bigporsche2.jpg");
+  background-size: cover;
+  background-position: 50% 50%; }
+
+.carousel-image-3 {
+  background: url("../images/bigporsche3.jpg");
+  background-size: cover;
+  background-position: 50% 50%; }
+
+#myCarousel {
+  border-bottom: 0.2rem solid rgba(0, 0, 0, 0.9); }
+
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #180d01;
+  background: rgba(24, 13, 1, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+#return-to-top:hover {
+  background: rgba(24, 13, 1, 0.9); }
+
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px; }
+
+#cars img {
+  -webkit-transition: all 1.2s;
+  -moz-transition: all 1.2s;
+  -ms-transition: all 1.2s;
+  -o-transition: all 1.2s;
+  transition: all 1.2s; }
+
+#cars img:hover {
+  transform: scale(1.07); }
+
+#modelshead, #galleryhead, #contactshead {
+  margin-top: 9em;
+  padding-bottom: 0;
+  font-family: "Porsche"; }
+
+#feedback h4 {
+  font-family: "Porsche"; }
+
+#feedback i {
+  padding: 0.5em;
+  font-size: 1.5em; }
+
+#feedback textarea {
+  height: 10em;
+  resize: none; }
+
+#feedback #successmsg {
+  -webkit-transition: all ease 2s;
+  -moz-transition: all ease 2s;
+  -ms-transition: all ease 2s;
+  -o-transition: all ease 2s;
+  transition: all ease 2s; }
+
+#contact a {
+  text-decoration: none;
+  color: #000; }
+
+#contact a:hover {
+  color: #e11c26; }
