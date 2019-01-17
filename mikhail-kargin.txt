@@ -1,6 +1,0 @@
-1. Восемь коммитов
-2. Добавлен 10 Окт 2012 00:47:52
-3. Pavel Tsaregorodtsev 04.12.2013
-4. 3b128fa  Ivan Evtukhovich
-
-https://github.com/express42/zabbixapi/commit/3b128fa1c6b96c9be4aed5b2bcf777537d752c5e 
